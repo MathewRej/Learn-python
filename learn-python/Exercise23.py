@@ -1,7 +1,7 @@
 #EXERCISE 23 Strings, Bytes, and Characters Encodings
 
 import sys 
-script, input_coding, error = sys.argv
+script, encoding, error = sys.argv
 
 def main(language_file, encoding, errors):
     line = language_file.readLine()
